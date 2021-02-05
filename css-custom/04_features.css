@@ -1,0 +1,137 @@
+.features {
+  width: 100%;
+  height: 772px;
+  padding-top: 119px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.features__header {
+  width: 100%;
+  height: 179px;
+  text-align: center;
+}
+
+.features__header__h2 {
+  font-size: 32px;
+  color: #000;
+}
+
+.features__header__p {
+  font-size: 20px;
+  color: #313841;
+  width: 708px;
+  margin: 18px auto;
+}
+
+.features__group__row {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  width: 320px;
+  height: 172px;
+  padding-left: 80px;
+}
+
+.feature__header-1,
+.feature__header-2,
+.feature__header-3,
+.feature__header-4,
+.feature__header-5,
+.feature__header-6 {
+  width: 100%;
+  height: 21px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.feature__header-1:before {
+  content: '';
+  width: 40px;
+  height: 51px;
+  background-image: url(../images/features/1-mobile.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header-2:before {
+  content: '';
+  width: 43px;
+  height: 51px;
+  background-image: url(../images/features/2-lemon.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header-3:before {
+  content: '';
+  width: 46px;
+  height: 51px;
+  background-image: url(../images/features/3-folder.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header-4:before {
+  content: '';
+  width: 44px;
+  height: 51px;
+  background-image: url(../images/features/4-terminal.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header-5:before {
+  content: '';
+  width: 50px;
+  height: 51px;
+  background-image: url(../images/features/5-envelope.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header-6:before {
+  content: '';
+  width: 45px;
+  height: 51px;
+  background-image: url(../images/features/6-free-code-camp.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: -66px;
+}
+
+.feature__header__h3 {
+  font-size: 22px;
+  color: #000;
+}
+
+.feature__p {
+  font-size: 16px;
+  color: #898989;
+  width: 215px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.features__group__bottom {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}

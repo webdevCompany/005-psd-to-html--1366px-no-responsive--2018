@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  height: 305px;
+  padding-top: 64px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #000;
+  border-top: 1px solid #303030;
+  color: #fff;
+  display: flex;
+}
+
+address {
+  width: 320px;
+  height: 205px;
+}
+
+.footer__columns {
+  width: 534px;
+  height: 205px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__columns__ul {
+  width: auto;
+  height: 90px;
+}
+
+.footer__columns__ul > li {
+  margin-bottom: 5px;
+}
